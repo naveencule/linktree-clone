@@ -1,0 +1,38 @@
+/* Path: C:\Users\user\new-linktree-clone\client\src\pages\WelcomePage.css */
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Light cyan background color */
+    color: #00796b; /* Dark teal text color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-container button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-container button:hover {
+    background-color: #004d40;
+  }
+  

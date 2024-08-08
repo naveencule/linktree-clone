@@ -1,0 +1,87 @@
+/* Path: C:\Users\user\new-linktree-clone\client\src\pages\Home.css */
+
+.home-container {
+  background-color: #004d40; /* Dark green background color */
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 80%; /* Make navbar 80% of the container width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white; /* White background for navbar */
+  color: black; /* Black text color inside navbar */
+  border-radius: 10px; /* Curved corners for navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin at the bottom to separate from content */
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: black; /* Black text color for links */
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-buttons .nav-button {
+  background-color: #00bfa5; /* Light green button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons .nav-button:hover {
+  background-color: #009e87; /* Darker green on hover */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.text-content {
+  max-width: 60%;
+  color: yellow;
+  
+}
+
+.text-content h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
